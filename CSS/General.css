@@ -1,0 +1,43 @@
+﻿#monthSelector
+{
+    float: right;
+    margin-right: 10px;
+}
+
+#monthFilter
+{
+    float: right;
+}
+
+#table_mails
+{
+   height: 550px;
+   width: 90%;
+   margin: 0 auto;
+}
+
+#table_fname
+{
+    height: 550px;
+}
+
+#table_lname
+{
+    height: 550px;
+}
+
+#table_bin
+{
+    height: 550px;
+}
+
+#table_last4
+{
+    height:550px;
+}
+
+#table_average
+{
+    width: 90%;
+    margin: 0 auto;
+}

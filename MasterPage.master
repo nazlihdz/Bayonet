@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" EnableViewState="false"  AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1" />
+    
+    <title>Bayonet Data Analyisis</title>
+    <link rel="stylesheet" type="text/css"  href="CSS/General.css"/>
+    <link rel="stylesheet" type="text/css"  href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/javascript/jquery_3.3.1.min.js") %>"></script> 
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/javascript/bootstrap_3.3.7.min.js") %>"></script> 
+</head>
+<body style="width: 99vw; height: 100vh;">
+ <form id="form1" class="form-horizontal" runat="server"> 
+
+      <div class ="container-fluid" style="clear:both;">
+           <header>
+                
+          </header>
+       </div> 
+   <section class="Main">
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+       
+   </section>
+
+ </form>
+</body>
+</html>
